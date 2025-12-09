@@ -1,9 +1,9 @@
-Project Overview
+# Project Overview
 
 This project is a React Components Library containing reusable UI components including Button, Card, and Modal.
 It demonstrates component reusability, state management, and modular design, making it suitable for integration into multiple React projects.
 
-Folder Structure
+## Folder Structure
 src/
  ├─ components/
  │   ├─ Button/
@@ -24,7 +24,7 @@ src/
 
 Each component has its own folder with JS, CSS, and index.js for easy imports.
 
-Components Description
+###Components Description
 1. Button
 
 Reusable button component.
@@ -70,14 +70,14 @@ onClose → Function to close modal
 
 children → Modal content
 
-Example:
+#### Example:
 
 <Modal show={showModal} onClose={() => setShowModal(false)}>
   <h2>Modal Title</h2>
   <p>This is the content inside the modal.</p>
 </Modal>
 
-Demo
+#####Demo
 
 The demo in App.js shows all components working together:
 
@@ -85,7 +85,7 @@ Click Button to open Modal
 
 Cards display component details
 
-Key Learnings
+###### Key Learnings
 
 Building reusable React components
 
