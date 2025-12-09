@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Button from "./components/Button";
+import Card from "./components/Card";
+import Modal from "./components/modal";
 
 function App() {
+  const [showModal, setShowModal] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: "20px" }}>
+      <h1>React Component Library Demo</h1>
+
+      {/* Button Component */}
+      <Button text="Open Modal" onClick={() => setShowModal(true)} type="primary" />
+
+      {/* Card Component */}
+      <Card title="Card Title" content="Reusable button component with customizable text, style, and click actions. Supports primary, secondary, and danger types. " />
+
+      {/* Modal Component */}
+      <Modal show={showModal} onClose={() => setShowModal(false)}>
+        <h2>Modal Content</h2>
+        <p>hey Users.</p>
+      </Modal>
     </div>
   );
 }
