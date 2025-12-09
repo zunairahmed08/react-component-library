@@ -85,7 +85,7 @@ Click Button to open Modal
 
 Cards display component details
 
-###### Key Learnings
+ Key Learnings
 
 Building reusable React components
 
@@ -95,7 +95,7 @@ Organizing project with component folder structure
 
 Styling components with CSS
 
-####### How to Run
+ How to Run
 
 Clone the repository:
 
