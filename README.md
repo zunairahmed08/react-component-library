@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Project Overview:
 This is a reusable React Components Library containing:
 - Button
@@ -48,3 +49,6 @@ How to Run:
 1. npm install
 2. npm start
 3. Open http://localhost:3000
+=======
+# react-component-library
+>>>>>>> cb9675e0785636be9dc54db0fa779de3336ac57a
