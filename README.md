@@ -95,7 +95,7 @@ Organizing project with component folder structure
 
 Styling components with CSS
 
-How to Run
+####### How to Run
 
 Clone the repository:
 
